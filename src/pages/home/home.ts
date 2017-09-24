@@ -14,7 +14,7 @@ export class HomePage {
   doAlert(){
     let alert = this.alerCtrl.create({
       title: 'Alerta',
-      message: 'Tu amigo esta Ok',
+      message: 'Tu amigo esta Ok 123',
       buttons: ['Ok']
     });
     alert.present()
